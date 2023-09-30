@@ -1,0 +1,12 @@
+{
+    "main.header": "Wspólnie tworzymy jedną przestrzeń dla edukacji",
+    "main.description": "Dzięki naszym wyszukiwarkom uzyskasz przydatne informacje o wszystkich szkołach i placówkach oświatowych oraz znajdziesz najodpowiedniejszy dla siebie kierunek studiów.",
+    "main.personalityQuiz.header": "Test osobowości",
+    "main.personalityQuiz.description": "Wykonaj test i poznaj swoje mocne strony!",
+    "main.advancedSearch.header": "Zaawansowana wyszukiwarka uczelni",
+    "main.advancedSearch.description": "Wyszukaj uczelnie przy pomocy filtrów!",
+    "main.details": "Dowiedz się więcej",
+    "selectMode": "Wybierz tryb wyszukiwania!",
+    "selectMode.personalityQuiz": "Test Osobowości",
+    "selectMode.advancedSearch": "Zaawansowane Wyszukianie"
+}

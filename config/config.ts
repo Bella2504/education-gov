@@ -9,17 +9,28 @@ export const open_sans = Open_Sans({
 export const theme = createTheme({
     palette: {
         primary: {
-          main: '#1976d2',
+          light: '#B3CBE4',
+          main: '#0052A5',
           contrastText: 'white',
+          dark: '#003D7A'
         },
     },
     typography: {
       fontFamily: open_sans.style.fontFamily,
+      fontSize: 10,
     },
     components: {
       MuiCssBaseline: {
         styleOverrides: `
           @font-face ${open_sans.style}
+
+          body {
+            margin: 0!important;
+          }
+
+          .MuiBox-root {
+            border: none;
+          }
         `,
       },
     },

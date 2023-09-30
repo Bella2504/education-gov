@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Head from 'next/head';
+import { CssBaseline } from '@mui/material';
 import Header from '../components/form/header';
 import Form from '../components/form';
 import { Container } from './styled';
@@ -8,9 +9,8 @@ import { theme } from '../config/config';
 import { IntlProvider } from 'react-intl';
 import Polish from '../dictionaries/pl.json';
 import English from '../dictionaries/en.json';
-import { CssBaseline } from '@mui/material';
 
-export default function Home() {
+export default function Test() {
   const [hydrated, setHydrated] = useState(false);
   useEffect(() => {
       setHydrated(true);
@@ -30,6 +30,7 @@ export default function Home() {
       <IntlProvider locale={local} messages={lang}>
         <Head>
           <title>Create Next App</title>
+          <link rel="icon" href="/favicon.ico" />
         </Head>
         <Header />
         <Form/>

@@ -7,6 +7,9 @@ export const open_sans = Open_Sans({
   })
   
 export const Container = styled.div`
-  font-size: 1.5em;
   font-family: ${open_sans.style.fontFamily};
+
+  .MuiBox-root {
+    border: none;
+  }
 `;

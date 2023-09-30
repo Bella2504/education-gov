@@ -1,3 +1,8 @@
+export const chooseModeOptions = [
+    { label: 'selectMode.personalityQuiz', value: 'selectMode.personalityQuiz' },
+    { label: 'selectMode.advancedSearch', value: 'selectMode.advancedSearch'}
+];
+
 export const listOfUniversities = [
     {
         id: 1,
@@ -9,7 +14,7 @@ export const listOfUniversities = [
     },
     {
         id: 3,
-        name: 'Akademi Górniczo Hutnicza'
+        name: 'Akademia Górniczo Hutnicza'
     },
     {
         id: 4,
