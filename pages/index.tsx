@@ -22,18 +22,14 @@ export default function Home() {
 
   const local = typeof window !== "undefined"  ? window.navigator.language : 'pl';
   const lang = local === 'pl' ?  Polish : English;
-
+  console.log(lang)
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container>
       <IntlProvider locale={local} messages={lang}>
-        <Head>
-          <title>Create Next App</title>
-        </Head>
         <Header />
-        <Form/>
-        </IntlProvider>
+      </IntlProvider>
       </Container>
     </ThemeProvider>
   );

@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import Head from 'next/head';
-import { CssBaseline } from '@mui/material';
 import Header from '../components/form/header';
 import Form from '../components/form';
 import { Container } from './styled';
@@ -9,8 +8,9 @@ import { theme } from '../config/config';
 import { IntlProvider } from 'react-intl';
 import Polish from '../dictionaries/pl.json';
 import English from '../dictionaries/en.json';
+import { CssBaseline } from '@mui/material';
 
-export default function Test() {
+export default function Home() {
   const [hydrated, setHydrated] = useState(false);
   useEffect(() => {
       setHydrated(true);
@@ -19,7 +19,7 @@ export default function Test() {
       // Returns null on first render, so the client and server match
       return null;
   }
-
+  console.log(window.navigator)
   const local = typeof window !== "undefined"  ? window.navigator.language : 'pl';
   const lang = local === 'pl' ?  Polish : English;
 
@@ -28,10 +28,6 @@ export default function Test() {
       <CssBaseline />
       <Container>
       <IntlProvider locale={local} messages={lang}>
-        <Head>
-          <title>Create Next App</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
         <Header />
         <Form/>
         </IntlProvider>

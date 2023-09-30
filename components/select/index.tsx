@@ -1,33 +1,35 @@
-import { Box, InputLabel, MenuItem, Select } from '@mui/material';
-import { useIntl } from 'react-intl';
+import { InputLabel, MenuItem, Select  } from '@mui/material';
+import { translate } from 'utils/translate';
+import { Container } from './styled';
+import { useField } from 'formik';
 
 interface Props {
-    options: {value: any, label: string}[];
+    options: string[];
     elementId: string;
     name: string;
 }
 
 const CustomSelect = ({ options, elementId, name }: Props) => {
-  const intl = useIntl();
+        const [field] = useField(elementId);
 
-    return (
-        <div>
-            <InputLabel htmlFor={elementId}>{intl.formatMessage({
-              id: name
-            })}</InputLabel>
+        return <Container>
+            <InputLabel htmlFor={elementId}>{translate(name)}</InputLabel>
             <Select
                 labelId={elementId}
                 id={elementId}
+                name={elementId}
                 label={name}
+                multiple
+                defaultValue={[]}
+                onChange={field.onChange}
                 //onChange={handleChange}
         >{
-            options.map(({ value, label }) => <MenuItem value={value}>
-              {label}
+            options.map((value) => <MenuItem value={value}>
+              {translate(value)}
             </MenuItem>)
         }
         </Select>
-      </div>
-    );
+      </Container>
   }
 
 export default CustomSelect;
