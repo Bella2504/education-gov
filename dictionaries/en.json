@@ -1,7 +1,8 @@
 {
     "main.header": "Together we create common space for education",
     "main.description": "Thanks to our searchers you will get useful information about all of the educational institutions and you will find the most suitable field of study for you",
-    "main.personalityQuiz.description": "Take the test and get to know your strenghts"
+    "main.personalityQuiz.header": "Personality Test",
+    "main.personalityQuiz.description": "Take the test and get to know your strenghts",
     "main.advancedSearch.header": "Advanced Search",
     "main.advancedSearch.description": "Search for universities using filters!",
     "main.details": "Find out more",
