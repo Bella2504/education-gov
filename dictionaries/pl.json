@@ -5,6 +5,7 @@
     "main-personalityQuiz-description": "Wykonaj test i poznaj swoje mocne strony!",
     "main-advancedSearch-header": "Zaawansowana wyszukiwarka uczelni",
     "main-advancedSearch-description": "Wyszukaj uczelnie przy pomocy filtrów!",
+    "advancedSearch-userData-linktest": "ROZPOCZNIJ TEST",
     "main-details": "Dowiedz się więcej",
     "advancedSearch-title": "Wyszukiwarka Uczelni",
     "advancedSearch-userData": "Dane użytkownika",
@@ -18,6 +19,9 @@
     "advancedSearch-facultyDetails-area": "Województwo",
     "advancedSearch-facultyDetails-status": "Status",
     "advancedSearch-search": "Szukaj",
+    "searchResults-title": "Twoje dopasowania",
+    "searchResults-description": "Na podstawie twoich wyborów wygenerowaliśmy listę uczelni dopasowanych do Ciebie.",
+    "searchResults-userData-clearFilters": "Clear Filters",
     "selectMode": "Wybierz tryb wyszukiwania!",
     "selectMode-personalityQuiz": "Test Osobowości",
     "selectMode-advancedSearch": "Zaawansowane Wyszukianie",
@@ -79,5 +83,6 @@
     "directory-userData-exam-55roku": "5,5 roku",
     "directory-userData-exam-6lat": "6 lat",
     "directory-userData-exam-polski": "Polski",
-    "directory-userData-exam-angielski": "Angielski"
+    "directory-userData-exam-angielski": "Angielski",
+    "adress": "Adres"
 }

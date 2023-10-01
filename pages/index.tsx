@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react';
-import Head from 'next/head';
 import Header from '../components/form/header';
-import Form from '../components/form';
 import { Container } from './styled';
 import { ThemeProvider } from '@emotion/react';
 import { theme } from '../config/config';

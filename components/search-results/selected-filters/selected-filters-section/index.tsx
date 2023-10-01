@@ -15,7 +15,7 @@ const AdvancedFiltersSection = (section: Props) => {
   const { image, options, name} = section;
 
     return (
-        <Grid container sx={{ p: 1 }} rowSpacing={1}>
+        <Grid container sx={{ p: 1 }}>
             <Grid item xs={12}>
                 <Box
                     height={'100%'}
@@ -35,11 +35,11 @@ const AdvancedFiltersSection = (section: Props) => {
                 </Box>
            </Grid>
            <Grid item xs={12}>
-                <Grid container sx={{ p: 1 }} rowSpacing={1}>
+                <Grid container sx={{ py: 1 }}>
                     {
                         options
                             .map((option) => 
-                                <Grid item xs={12} md={12}>
+                                <Grid sx={{ py: 1 }} key={option.name} item xs={12} md={12}>
                                     <CustomSelect elementId={option.name} options={option.options} name={translate(option.name)}/>
                                 </Grid>
                             )

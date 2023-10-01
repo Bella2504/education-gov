@@ -11,10 +11,10 @@ export default function Header() {
           <Grid item xs={12} md={6}>
             <Box sx={{ display: 'flex', flexDirection: 'column' }}>
               <HeaderInfo>
-                {translate("main.header")}
+                {translate("main-header")}
               </HeaderInfo>
               <HeaderDescription>
-                {translate("main.description")}
+                {translate("main-description")}
               </HeaderDescription>
             </Box>
           </Grid>
@@ -33,10 +33,10 @@ export default function Header() {
                 height={80}
                 priority
               />
-              <HeaderText>{translate('main.personalityQuiz.header')}</HeaderText>
-              <HeaderDescription>{translate('main.personalityQuiz.description')}</HeaderDescription>
+              <HeaderText>{translate('main-personalityQuiz-header')}</HeaderText>
+              <HeaderDescription>{translate('main-personalityQuiz-description')}</HeaderDescription>
               <Link href="/test">
-                {translate('main.details')}
+                {translate('main-details')}
                 <Image
                   src="/arrow_forward.svg"
                   alt="persoanlity quiz"
@@ -62,10 +62,10 @@ export default function Header() {
                 height={80}
                 priority
               />
-              <HeaderText>{translate('main.advancedSearch.header')}</HeaderText>
-              <HeaderDescription>{translate('main.advancedSearch.description')}</HeaderDescription>
+              <HeaderText>{translate('main-advancedSearch-header')}</HeaderText>
+              <HeaderDescription>{translate('main-advancedSearch-description')}</HeaderDescription>
               <Link href="/advancedSearch">
-                {translate('main.details')}
+                {translate('main-details')}
                 <Image
                   src="/arrow_forward.svg"
                   alt="persoanlity quiz"

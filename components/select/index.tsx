@@ -14,29 +14,21 @@ const CustomSelect = ({ options, elementId, name }: Props) => {
         const [field] = useField(elementId);
         const {setFieldValue} = useFormikContext<any>();
         return <Container>
-            <InputLabel htmlFor={elementId}>{translate(name)}</InputLabel>
+            <InputLabel htmlFor={elementId}>{name}</InputLabel>
             <Select
                 labelId={elementId}
                 id={elementId}
                 name={elementId}
                 label={elementId}
                 multiple
-                defaultValue={field.value || []}
+                value={field.value || []}
                 onChange={(val) => {
                   const value = val.target.value as any[] || [];
-                  if (field.value?.includes((v:any) => value.includes(v))) {
-                    const updatedValues = field.value?.filter((v: any) => !value.includes(v) && v!==undefined);
-                    setFieldValue(elementId, updatedValues)
-                  } else {
-                    const updatedValues = uniq([...[...(field.value ?? [])], ...value].filter((v) => v!==undefined));
-                    console.log('add', updatedValues)
-                    setFieldValue(elementId, updatedValues)
-                  }
+                  setFieldValue(elementId, value)
                 }
-                }
-                //onChange={handleChange}
+              }
         >{
-            options.map((value) => <MenuItem value={value}>
+            options.map((value) => <MenuItem key={value} value={value}>
               {translate(value)}
             </MenuItem>)
         }

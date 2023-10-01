@@ -6,6 +6,7 @@
     "main-advancedSearch-header": "Advanced Search",
     "main-advancedSearch-description": "Search for universities using filters!",
     "main-details": "Find out more",
+    "advancedSearch-userData-linktest": "START TEST",
     "advancedSearch-title": "Universities searcher",
     "advancedSearch-userData": "User data",
     "advancedSearch-facultyDetails": "Speciality details",
@@ -17,6 +18,9 @@
     "advancedSearch-userData-languages": "Language of study" ,
     "advancedSearch-facultyDetails-area": "Voivodeship",
     "advancedSearch-facultyDetails-status": "Status",
+    "searchResults-userData-clearFilters": "Clear Filters",
+    "searchResults-title": "Your matches",
+    "searchResults-description": "Based on your choices, we have generated a list of universities tailored to you.",
     "selectMode": "Select Way You Want Make Search Mode!",
     "selectMode-personalityQuiz": "Personality Quiz",
     "selectMode-advancedSearch": "Advanced Search",
@@ -76,5 +80,6 @@
     "directory-userData-exam-55roku": "5,5 year",
     "directory-userData-exam-6lat": "6 years",
     "directory-userData-exam-polski": "Polish",
-    "directory-userData-exam-angielski": "English"
+    "directory-userData-exam-angielski": "English",
+    "adress": "Adress"
 }

@@ -30,6 +30,7 @@ const CustomRadioGroup = ({ options, elementId, name }: Props) => {
                 {
                 options.map(({value, label}) =>
                     <FormControlLabel
+                        key={value}
                         value={renderOption(value)}
                         control={<Radio />} label={renderOption(label)} />
                 )}

@@ -39,7 +39,7 @@ const AdvancedFiltersSection = (section: Props) => {
                     {
                         options
                         .map((option) => 
-                        <Grid item xs={12} md={6}>
+                        <Grid item xs={12} md={6} key={option.name}>
                             <CustomSelect elementId={option.name} options={option.options} name={translate(option.name)}/>
                         </Grid>
                         )

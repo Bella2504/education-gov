@@ -13,7 +13,7 @@ const AdvancedFilters = () => {
           <SearchHeader />
           {
             advancedSearchSection.map((section) => <Section>
-                <AdvancedFiltersSection {...section} />
+                <AdvancedFiltersSection {...section} key={section.name}/>
               </Section>)
           }
         </div>

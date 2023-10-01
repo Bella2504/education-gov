@@ -8,9 +8,9 @@ export default function Header() {
 
     return (
         <HeaderContainer>
-            <h3>{translate('advancedSearch-info')}</h3>
+            <h3>{translate('main-advancedSearch-description')}</h3>
             <Button variant="outlined" onClick={() => { router.push('/test')}}>
-                {translate('advancedSearch-linkTest')}
+                {translate('advancedSearch-userData-linktest')}
             </Button>
         </HeaderContainer>
     )
