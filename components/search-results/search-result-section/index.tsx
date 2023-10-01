@@ -15,7 +15,7 @@ const SelectedResultList = () => {
                 {
                     filteredValues.best.map((university) => {
                         return <Grid container sx={{ py: 1 }} width='100%'>
-                            <Grid item xs={3} sx={{ display: 'flex', flexDirection: 'row', justifyContent: "start", alignItems: "center" }}>
+                            <Grid item xs={12} md={3} sx={{ display: 'flex', flexDirection: 'row', justifyContent: "start", alignItems: "center" }}>
                                 <Image
                                     src={`/picture.svg`}
                                     alt={'Symbol of university'}
@@ -24,11 +24,11 @@ const SelectedResultList = () => {
                                     priority
                                 />
                             </Grid>
-                            <Grid item xs={9} >
+                            <Grid item xs={12} md={9} >
                                 <Grid container sx={{ py: 1 }} >
                                     <Header>{translate(university.name)}</Header>
                                     <Grid container sx={{ py: 1 }}>
-                                        <Grid item xs={4}
+                                        <Grid item xs={12} md={4}
                                             sx={{ display: 'flex', flexDirection: 'column', justifyContent: "start", alignItems: "center" }}
                                             p={2}
                                         >
@@ -38,14 +38,14 @@ const SelectedResultList = () => {
                                             <Info>{translate(university.adress)}</Info>
                 
                                         </Grid>
-                                        <Grid item xs={4}
+                                        <Grid item xs={12} md={4}
                                             sx={{ display: 'flex', flexDirection: 'column', justifyContent: "start", alignItems: "center" }}
                                             p={2}
                                         >
                                             <Title>{translate("advancedSearch-userData-facultyGroup")}:</Title>
                                             <Info>{university["advancedSearch-userData-facultyGroup"].map((f) => translate(f)).join(', ')}</Info>
                                         </Grid>
-                                        <Grid item xs={4}
+                                        <Grid item xs={12} md={4}
                                             sx={{ display: 'flex', flexDirection: 'column', justifyContent: "start", alignItems: "center" }}
                                             p={2}
                                         >
