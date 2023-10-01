@@ -16,7 +16,7 @@ const AdvancedFiltersSection = (section: Props) => {
 
     return (
         <Grid container sx={{ p: 2 }} rowSpacing={2} columnSpacing={2}>
-            <Grid item xs={12} md={2} lg={4} >
+            <Grid item xs={12}>
                 <Box
                     height={'100%'}
                     minWidth={'100%'}
@@ -34,7 +34,7 @@ const AdvancedFiltersSection = (section: Props) => {
                     <Header>{translate(name)}</Header>
                 </Box>
            </Grid>
-           <Grid item xs={12} md={10} lg={8}>
+           <Grid item xs={12}>
                 <Grid container sx={{ p: 2 }} rowSpacing={2} columnSpacing={2}>
                     {
                         options

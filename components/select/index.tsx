@@ -18,9 +18,9 @@ const CustomSelect = ({ options, elementId, name }: Props) => {
                 labelId={elementId}
                 id={elementId}
                 name={elementId}
-                label={name}
+                label={elementId}
                 multiple
-                defaultValue={[]}
+                defaultValue={[field.value]}
                 onChange={field.onChange}
                 //onChange={handleChange}
         >{

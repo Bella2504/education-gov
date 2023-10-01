@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Container } from './styled';
+import { ButtonContainer, Container } from './styled';
 import { ThemeProvider } from '@emotion/react';
 import { theme } from '../config/config';
 import { IntlProvider } from 'react-intl';
@@ -41,9 +41,10 @@ export default function AdvancedSearch() {
         {props => (
            <form onSubmit={() => props.handleSubmit(props.values as any)}>
                 {isSubmitted ? <SearchResults/> : <AdvancedFilters/>}
-                {!isSubmitted && <Button onClick={() => { setIsSubmitted(true); console.log(props)}}>
-                    {translate('advancedSearch.search')}
-                </Button>}
+                {!isSubmitted && <ButtonContainer>
+                    <Button variant="contained" disabled={Object.keys(props.values).length === 0} onClick={() => { setIsSubmitted(true); console.log(props)}}>
+                        {translate('advancedSearch-search')}
+                    </Button></ButtonContainer>}
             </form>
         )}
         </Formik >

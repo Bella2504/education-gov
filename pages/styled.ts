@@ -13,3 +13,10 @@ export const Container = styled.div`
     border: none;
   }
 `;
+
+export const ButtonContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 10px 5%;
+`;
