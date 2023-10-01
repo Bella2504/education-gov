@@ -15,13 +15,13 @@ const AdvancedFiltersSection = (section: Props) => {
   const { image, options, name} = section;
 
     return (
-        <Grid container sx={{ p: 2 }} rowSpacing={2} columnSpacing={2}>
+        <Grid container sx={{ p: 1 }} rowSpacing={1}>
             <Grid item xs={12}>
                 <Box
                     height={'100%'}
                     minWidth={'100%'}
                     sx={{ display: 'flex', flexDirection: 'row', justifyContent: "start", alignItems: "center" }}
-                    p={2}
+                    p={1}
                     border="1px solid white !important"
                     >
                     <Image
@@ -35,14 +35,14 @@ const AdvancedFiltersSection = (section: Props) => {
                 </Box>
            </Grid>
            <Grid item xs={12}>
-                <Grid container sx={{ p: 2 }} rowSpacing={2} columnSpacing={2}>
+                <Grid container sx={{ p: 1 }} rowSpacing={1}>
                     {
                         options
-                        .map((option) => 
-                        <Grid item xs={12} md={6}>
-                            <CustomSelect elementId={option.name} options={option.options} name={translate(option.name)}/>
-                        </Grid>
-                        )
+                            .map((option) => 
+                                <Grid item xs={12} md={12}>
+                                    <CustomSelect elementId={option.name} options={option.options} name={translate(option.name)}/>
+                                </Grid>
+                            )
                     }
                 </Grid>
            </Grid>

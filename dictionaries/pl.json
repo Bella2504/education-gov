@@ -23,8 +23,6 @@
     "selectMode-advancedSearch": "Zaawansowane Wyszukianie",
     "directory-userData-exam-biologia": "Biologia",
     "directory-userData-exam-matematyka": "Matematyka",
-    "directory-userData-exam-angielski": "Angielski",
-    "directory-userData-exam-polski": "Polski",
     "directory-userData-exam-chemia": "Chemia",
     "directory-userData-exam-fizyka": "Fizyka",
     "directory-facultyDetails-area-mazowieckie": "Mazowieckie",
@@ -33,10 +31,10 @@
     "directory-facultyDetails-area-wielkopolskie": "Wielkopolskie",
     "directory-facultyDetails-status-publiczna": "Publiczna",
     "directory-facultyDetails-status-prywatna": "Prywanta",
-    "directory-facultyDetails-status-katolicka": "Katolicka"
+    "directory-facultyDetails-status-katolicka": "Katolicka",
     "directory-userData-exam-architekturaibudownictwo": "Architektura i budownictwo",
     "directory-userData-exam-artystyczne": "Artystyczne",
-    "directory-userData-exam-biologiczneiprzyrodnicze": "Biologiczne i przyrodnicze"
+    "directory-userData-exam-biologiczneiprzyrodnicze": "Biologiczne i przyrodnicze",
     "directory-userData-exam-chemiczne": "Chemiczne",
     "directory-userData-exam-dziennikarstwoiinformacja": "Dziennikarstwo i informacja",
     "directory-userData-exam-ekonomiczne": "Ekonimiczne",
@@ -81,5 +79,5 @@
     "directory-userData-exam-55roku": "5,5 roku",
     "directory-userData-exam-6lat": "6 lat",
     "directory-userData-exam-polski": "Polski",
-    "directory-userData-exam-angielski": "Angielski",
+    "directory-userData-exam-angielski": "Angielski"
 }

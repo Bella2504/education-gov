@@ -22,18 +22,16 @@
     "selectMode-advancedSearch": "Advanced Search",
     "directory-userData-exam-biologia": "Biology",
     "directory-userData-exam-matematyka": "Mathematics",
-    "directory-userData-exam-angielski": "English",
-    "directory-userData-exam-polski": "Polish",
     "directory-facultyDetails-area-mazowieckie": "Mazovian",
     "directory-facultyDetails-area-malopolskie": "Lesser Poland",
     "directory-facultyDetails-area-pomorskie": "Pomeranian",
     "directory-facultyDetails-area-wielkopolskie": "Greater Poland",
     "directory-facultyDetails-status-publiczna": "Public",
     "directory-facultyDetails-status-prywatna": "Private",
-    "directory-facultyDetails-status-katolicka": "Catholic"
+    "directory-facultyDetails-status-katolicka": "Catholic",
     "directory-userData-exam-architekturaibudownictwo": "Architecture and construction",
     "directory-userData-exam-artystyczne": "Art",
-    "directory-userData-exam-biologiczneiprzyrodnicze": "Biology"
+    "directory-userData-exam-biologiczneiprzyrodnicze": "Biology",
     "directory-userData-exam-chemiczne": "Chemistry",
     "directory-userData-exam-dziennikarstwoiinformacja": "Journalism and information",
     "directory-userData-exam-ekonomiczne": "Economy",
@@ -78,5 +76,5 @@
     "directory-userData-exam-55roku": "5,5 year",
     "directory-userData-exam-6lat": "6 years",
     "directory-userData-exam-polski": "Polish",
-    "directory-userData-exam-angielski": "English",
+    "directory-userData-exam-angielski": "English"
 }

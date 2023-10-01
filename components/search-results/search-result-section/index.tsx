@@ -5,7 +5,6 @@ import { useFormikContext } from 'formik';
 const SelectedResultList = () => {
     const { values } = useFormikContext();
     const filteredValues = filterValues(values);
-    console.log(filteredValues);
     return (
         <Grid container sx={{ p: 2 }} rowSpacing={2} columnSpacing={2}>
             <Grid item xs={12} md={2} lg={4} >
