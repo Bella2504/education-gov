@@ -31,9 +31,9 @@ const SelectedFilters = () => {
                 />
             </Box>
             {
-                advancedSearchSection.map((section) => <Section key={section.name}>
-                    <SelectedFiltersSection {...section} />
-                </Section>)
+                advancedSearchSection.map((section) =>
+                    <SelectedFiltersSection key={section.name} {...section} />
+                )
             }
         </div>
     );

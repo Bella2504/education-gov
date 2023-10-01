@@ -18,7 +18,7 @@ export default function Home() {
       // Returns null on first render, so the client and server match
       return null;
   }
-  console.log(window.navigator)
+
   const local = typeof window !== "undefined"  ? window.navigator.language : 'pl';
   const lang = local === 'pl' ?  Polish : English;
 

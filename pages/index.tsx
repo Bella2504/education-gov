@@ -20,7 +20,7 @@ export default function Home() {
 
   const local = typeof window !== "undefined"  ? window.navigator.language : 'pl';
   const lang = local === 'pl' ?  Polish : English;
-  console.log(lang)
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />

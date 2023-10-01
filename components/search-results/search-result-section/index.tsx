@@ -8,7 +8,7 @@ import { Header, Title, Info } from './styled';
 const SelectedResultList = () => {
     const { values } = useFormikContext();
     const filteredValues = filterValues(values);
-    console.log(filteredValues);
+
     return (
         <Grid container sx={{ p: 2 }} rowSpacing={2} columnSpacing={2}>
             <Grid item xs={12} >
